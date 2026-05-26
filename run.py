@@ -8,7 +8,7 @@ from datetime import datetime
 from collections import defaultdict
 
 # =============================================
-#   versi kontrol  massal
+#   Dibuat oleh Obod
 # =============================================
 
 WARNA = {
