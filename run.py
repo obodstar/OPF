@@ -8,12 +8,7 @@ from datetime import datetime
 from collections import defaultdict
 
 # =============================================
-#   PHONE FARM ADB - WEBSITE VIDEO TESTER
-#   v3.0 — POWERFUL EDITION
-#   • Anti-double link per device
-#   • Threading paralel serentak
-#   • Log file lengkap
-#   • Statistik real-time
+#   Created By Obod
 # =============================================
 
 WARNA = {
