@@ -8,7 +8,12 @@ from datetime import datetime
 from collections import defaultdict
 
 # =============================================
-#   Dibuat oleh Obod
+#   PHONE FARM ADB - WEBSITE VIDEO TESTER
+#   v3.0 — POWERFUL EDITION
+#   • Anti-double link per device
+#   • Threading paralel serentak
+#   • Log file lengkap
+#   • Statistik real-time
 # =============================================
 
 WARNA = {
@@ -257,11 +262,11 @@ def tugas_device(antrian, link, durasi_detik, hasil_dict, statistik, putaran, se
         time.sleep(3)
         paksa_putar_video(antrian.device_id)
         time.sleep(0.5)
-        scroll_halaman(antrian.device_id)
+        # scroll_halaman(antrian.device_id)
 
         time.sleep(max(0, durasi_detik - 3.5))
 
-        kembali_ke_home(antrian.device_id)
+        # kembali_ke_home(antrian.device_id)
 
         hasil_dict[antrian.device_id] = True
         statistik.catat(nama, link, True)
